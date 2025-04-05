@@ -1,0 +1,25 @@
+(venv) Suhanis-Laptop:DSBDS suhaniparkhi$ cd SocialNetwork
+(venv) Suhanis-Laptop:SocialNetwork suhaniparkhi$ python3 practical5.py
+Dataset head:
+     User ID  Gender  ...  EstimatedSalary  Purchased
+0  15624510    Male  ...            19000          0
+1  15810944    Male  ...            20000          0
+2  15668575  Female  ...            43000          0
+3  15603246  Female  ...            57000          0
+4  15804002    Male  ...            76000          0
+
+[5 rows x 5 columns]
+
+Confusion Matrix:
+ [[65  3]
+ [ 8 24]]
+
+True Positives (TP): 24
+False Positives (FP): 3
+True Negatives (TN): 65
+False Negatives (FN): 8
+Accuracy: 0.89
+Error Rate: 0.11
+Precision: 0.89
+Recall: 0.75
+(venv) Suhanis-Laptop:SocialNetwork suhaniparkhi$ 

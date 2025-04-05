@@ -1,0 +1,8 @@
+Hadoop is an open-source framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models.
+It is designed to scale up from single servers to thousands of machines, each offering local computation and storage.
+The Hadoop framework consists of the Hadoop Common, the Hadoop Distributed File System (HDFS), and the Hadoop MapReduce programming model.
+Hadoop enables applications to work with thousands of nodes and petabytes of data.
+MapReduce is the processing layer of Hadoop.
+It divides the task into small parts that can be executed on different nodes.
+This makes Hadoop highly efficient, scalable, and fault-tolerant.
+Many companies use Hadoop to handle massive amounts of data daily.

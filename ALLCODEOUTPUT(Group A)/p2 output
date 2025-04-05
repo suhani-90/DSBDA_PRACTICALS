@@ -1,0 +1,35 @@
+venv) Suhanis-Laptop:student_performance suhaniparkhi$ python3 practical2.py
+🔹 First 5 rows:
+   gender race/ethnicity  ... reading score writing score
+0    male        group A  ...            67            63
+1  female        group D  ...            59            55
+2    male        group E  ...            60            50
+3    male        group B  ...            78            68
+4    male        group E  ...            73            68
+
+[5 rows x 8 columns]
+
+🔹 Missing values in each column:
+gender                         0
+race/ethnicity                 0
+parental level of education    0
+lunch                          0
+test preparation course        0
+math score                     0
+reading score                  0
+writing score                  0
+dtype: int64
+
+🔹 Unique values in each categorical column:
+gender: ['male' 'female']
+race/ethnicity: ['group A' 'group D' 'group E' 'group B' 'group C']
+parental level of education: ['high school' 'some high school' 'some college' "associate's degree"
+ "bachelor's degree" "master's degree"]
+lunch: ['standard' 'free/reduced']
+test preparation course: ['completed' 'none']
+
+🔹 Outliers detected in 'math score': 3
+
+🔹 Outliers detected in 'reading score': 5
+
+🔹 Outliers detected in 'writing score': 0

@@ -1,0 +1,55 @@
+(venv) Suhanis-Laptop:textanlaysis suhaniparkhi$ python3 practical7.py
+Original Text:
+ Natural Language Processing (NLP) is a fascinating field of artificial intelligence that allows machines to understand and interpret human language. It combines computational linguistics with machine learning and deep learning models. Applications of NLP are all around us – from digital assistants like Siri and Alexa to email filtering, automatic summarization, and language translation.
+
+One of the core challenges in NLP is teaching computers to grasp the context and nuances of language as humans do. For instance, sarcasm, metaphors, and idioms often confuse even the best models. With the growing volume of unstructured text data from social media, reviews, and customer support tickets, NLP is becoming increasingly important.
+
+Advanced NLP techniques include named entity recognition, sentiment analysis, text classification, question answering, and chatbot development. Tools like spaCy, NLTK, and Hugging Face Transformers are popular among developers and researchers for implementing NLP solutions.
+
+--------------------------------------------------------------------------------
+Tokens:
+['Natural', 'Language', 'Processing', '(', 'NLP', ')', 'is', 'a', 'fascinating', 'field', 'of', 'artificial', 'intelligence', 'that', 'allows', 'machines', 'to', 'understand', 'and', 'interpret', 'human', 'language', '.', 'It', 'combines', 'computational', 'linguistics', 'with', 'machine', 'learning', 'and', 'deep', 'learning', 'models', '.', 'Applications', 'of', 'NLP', 'are', 'all', 'around', 'us', '–', 'from', 'digital', 'assistants', 'like', 'Siri', 'and', 'Alexa', 'to', 'email', 'filtering', ',', 'automatic', 'summarization', ',', 'and', 'language', 'translation', '.', 'One', 'of', 'the', 'core', 'challenges', 'in', 'NLP', 'is', 'teaching', 'computers', 'to', 'grasp', 'the', 'context', 'and', 'nuances', 'of', 'language', 'as', 'humans', 'do', '.', 'For', 'instance', ',', 'sarcasm', ',', 'metaphors', ',', 'and', 'idioms', 'often', 'confuse', 'even', 'the', 'best', 'models', '.', 'With', 'the', 'growing', 'volume', 'of', 'unstructured', 'text', 'data', 'from', 'social', 'media', ',', 'reviews', ',', 'and', 'customer', 'support', 'tickets', ',', 'NLP', 'is', 'becoming', 'increasingly', 'important', '.', 'Advanced', 'NLP', 'techniques', 'include', 'named', 'entity', 'recognition', ',', 'sentiment', 'analysis', ',', 'text', 'classification', ',', 'question', 'answering', ',', 'and', 'chatbot', 'development', '.', 'Tools', 'like', 'spaCy', ',', 'NLTK', ',', 'and', 'Hugging', 'Face', 'Transformers', 'are', 'popular', 'among', 'developers', 'and', 'researchers', 'for', 'implementing', 'NLP', 'solutions', '.']
+
+--------------------------------------------------------------------------------
+POS Tags:
+[('Natural', 'JJ'), ('Language', 'NN'), ('Processing', 'NN'), ('(', '('), ('NLP', 'NNP'), (')', ')'), ('is', 'VBZ'), ('a', 'DT'), ('fascinating', 'JJ'), ('field', 'NN'), ...]
+
+--------------------------------------------------------------------------------
+After Stop Words Removal:
+['Natural', 'Language', 'Processing', 'NLP', 'fascinating', 'field', 'artificial', 'intelligence', 'allows', 'machines', 'understand', 'interpret', 'human', 'language', 'combines', 'computational', 'linguistics', 'machine', 'learning', 'deep', 'learning', 'models', 'Applications', 'NLP', 'around', 'us', 'digital', 'assistants', 'like', 'Siri', 'Alexa', 'email', 'filtering', 'automatic', 'summarization', 'language', 'translation', 'One', 'core', 'challenges', 'NLP', 'teaching', 'computers', 'grasp', 'context', 'nuances', 'language', 'humans', 'instance', 'sarcasm', 'metaphors', 'idioms', 'often', 'confuse', 'even', 'best', 'models', 'growing', 'volume', 'unstructured', 'text', 'data', 'social', 'media', 'reviews', 'customer', 'support', 'tickets', 'NLP', 'becoming', 'increasingly', 'important', 'Advanced', 'NLP', 'techniques', 'include', 'named', 'entity', 'recognition', 'sentiment', 'analysis', 'text', 'classification', 'question', 'answering', 'chatbot', 'development', 'Tools', 'like', 'spaCy', 'NLTK', 'Hugging', 'Face', 'Transformers', 'popular', 'among', 'developers', 'researchers', 'implementing', 'NLP', 'solutions']
+
+--------------------------------------------------------------------------------
+Stemmed Words:
+['natur', 'languag', 'process', 'nlp', 'fascin', 'field', 'artifici', 'intellig', 'allow', 'machin', 'understand', 'interpret', 'human', 'languag', 'combin', 'comput', 'linguist', 'machin', 'learn', 'deep', 'learn', 'model', ...]
+
+--------------------------------------------------------------------------------
+Lemmatized Words:
+['Natural', 'Language', 'Processing', 'NLP', 'fascinating', 'field', 'artificial', 'intelligence', 'allows', 'machine', 'understand', 'interpret', 'human', 'Language', 'combines', 'computational', 'linguistic', 'machine', 'learning', 'deep', 'learning', 'model', ...]
+
+--------------------------------------------------------------------------------
+TF-IDF Matrix:
+analysis: 0.0807
+alexa: 0.0807
+among: 0.0807
+answering: 0.0807
+applications: 0.0807
+artificial: 0.0807
+assistant: 0.0807
+automatic: 0.0807
+becoming: 0.0807
+best: 0.0807
+challenge: 0.0807
+chatbot: 0.0807
+classification: 0.0807
+combin: 0.0807
+computational: 0.0807
+context: 0.0807
+...
+translation: 0.0807
+transformers: 0.0807
+understand: 0.0807
+unstructured: 0.0807
+volume: 0.0807
+widely: 0.0807
+
+--------------------------------------------------------------------------------

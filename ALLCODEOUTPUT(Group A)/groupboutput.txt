@@ -1,0 +1,12 @@
+(venv) Suhanis-Laptop:wordcount_groupB suhaniparkhi$
+across    1
+allows    1
+amounts   1
+applications 1
+...
+hadoop    8
+mapreduce 2
+nodes     2
+petabytes 1
+programming 2
+...

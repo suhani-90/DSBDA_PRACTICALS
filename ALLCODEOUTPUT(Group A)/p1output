@@ -1,0 +1,58 @@
+(venv) Suhanis-Laptop:DSBDS suhaniparkhi$ cd student_performance
+(venv) Suhanis-Laptop:student_performance suhaniparkhi$ python3 practical1.py
+🔹 First 5 rows of the dataset:
+   gender race/ethnicity parental level of education         lunch test preparation course  math score  reading score  writing score
+0    male        group A                 high school      standard               completed          67             67             63
+1  female        group D            some high school  free/reduced                    none          40             59             55
+2    male        group E                some college  free/reduced                    none          59             60             50
+3    male        group B                 high school      standard                    none          77             78             68
+4    male        group E          associate's degree      standard               completed          78             73             68
+
+🔹 Check for missing values:
+gender                         0
+race/ethnicity                 0
+parental level of education    0
+lunch                          0
+test preparation course        0
+math score                     0
+reading score                  0
+writing score                  0
+dtype: int64
+
+🔹 Summary statistics of the dataset:
+        math score  reading score  writing score
+count  1000.000000    1000.000000    1000.000000
+mean     66.396000      69.002000      67.738000
+std      15.402871      14.737272      15.600985
+min      13.000000      27.000000      23.000000
+25%      56.000000      60.000000      58.000000
+50%      66.500000      70.000000      68.000000
+75%      77.000000      79.000000      79.000000
+max     100.000000     100.000000     100.000000
+
+🔹 Shape of the dataset (rows, columns):
+(1000, 8)
+
+🔹 Column names in the dataset:
+['gender', 'race/ethnicity', 'parental level of education', 'lunch', 'test preparation course', 'math score', 'reading score', 'writing score']
+
+🔹 Data types of variables:
+gender                         object
+race/ethnicity                 object
+parental level of education    object
+lunch                          object
+test preparation course        object
+math score                      int64
+reading score                   int64
+writing score                   int64
+dtype: object
+
+🔹 Dataset after encoding:
+   gender         lunch  math_score  ...  parent_education_some college  parent_education_some high school  test_prep_none
+0    male      standard          67  ...                          False                              False           False
+1  female  free/reduced          40  ...                          False                               True            True
+2    male  free/reduced          59  ...                           True                              False            True
+3    male      standard          77  ...                          False                              False            True
+4    male      standard          78  ...                          False                              False           False
+
+[5 rows x 17 columns]

@@ -1,0 +1,22 @@
+venv) Suhanis-Laptop:IRIS suhaniparkhi$ python3 practical6.py
+Confusion Matrix:
+[[10  0  0]
+ [ 0  9  0]
+ [ 0  0 11]]
+
+Accuracy: 1.00
+Error Rate: 0.00
+Precision: 1.00
+Recall: 1.00
+
+True Positives, False Positives, True Negatives, False Negatives per class:
+
+Class: Iris-setosa
+TP: 10, FP: 0, FN: 0, TN: 20
+
+Class: Iris-versicolor
+TP: 9, FP: 0, FN: 0, TN: 21
+
+Class: Iris-virginica
+TP: 11, FP: 0, FN: 0, TN: 19
+(venv) Suhanis-Laptop:IRIS suhaniparkhi$ 
