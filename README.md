@@ -1,5 +1,5 @@
 # DSBDA_PRACTICALS
- All Group A DSBDA Practicals with output and text file
+ SPPU Computer engineering Sem 6 All Group A DSBDA Practicals with output and text file
 # DSBDA Practicals – SPPU | TY BTech Computer Engineering (Sem 6)
 
 This repository contains **complete practicals, code, and outputs** for the subject **DSBDA (Data Science & Big Data Analytics)** as per the **SPPU (Savitribai Phule Pune University)** syllabus for **Third Year Computer Engineering, Semester 6**.
